@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MakeItDay</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="image_accueil_description">Welcome to MakeItDay !</string>
+    <string name="menu1"> Vérifier id QRShare ! </string>
+    <string name="menu2">  Mes pros favoris !  </string>
+    <string name="menu3"> Scanner mon QRCode ! </string>
+    <string name="menu4">Dernières recherches !</string>
+    <string name="menu5">Supprimer id QRShare !</string>
+    <string name="menu6">Recherches favorites !</string>
+    
+    <string name="textview2">Identifiant QRShare : </string>
+    
+    <string name="lr_textview1">Url de l\'API JSON :</string>
+    
+    <!-- Chaines de l'activity loginDisplay -->
+    <string name="text_display1">Text_display1</string>
+    <string name="text_display2">"Text_display2"</string>
+    
+    <string name="button_scan">"Scanner un QRCode !"</string>
+    <string name="scan_launcher_textview1">"Try it !"</string>
+    <string name="text_scan_launcher_1">"En attente &#8230;&#8230;&#8230;"</string>
+    <string name="result_succeeded">"Résultat OK"</string>
+    <string name="result_failed">"Résultat NOK"</string>
+    
+</resources>

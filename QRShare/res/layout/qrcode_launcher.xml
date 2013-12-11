@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/layout_padding_top" >
+
+    <ImageView
+        android:id="@+id/android_picture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:src="@drawable/qrdroide2"
+        android:contentDescription="@string/image_accueil_description" />
+    
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_launcher_textview1"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/big_text_size"
+        android:textStyle="bold" />
+
+    <Button style="@style/btnStyleArsenic"
+        android:id="@+id/button_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_large"
+        android:text="@string/button_scan" />
+
+    <TextView
+        android:id="@+id/text_scan_launcher_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_scan_launcher_1"
+        android:textColor="@color/black_color"
+        android:layout_marginTop="@dimen/large_padding"
+        android:textSize="@dimen/small_text_size" />
+
+</LinearLayout>

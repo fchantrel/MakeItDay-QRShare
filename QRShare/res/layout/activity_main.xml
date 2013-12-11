@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/android_picture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:src="@drawable/qrdroide4"
+        android:contentDescription="@string/image_accueil_description" />
+    
+    <TextView
+        android:id="@+id/textSpeech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip" />
+
+    <Button style="@style/btnStyleArsenic"
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_large"
+        android:text="@string/menu1" />
+     
+    <Button style="@style/btnStyleArsenic"
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/menu3" />
+    
+    <Button style="@style/btnStyleArsenic"
+        android:id="@+id/menu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/menu4" />
+    
+    <Button style="@style/btnStyleArsenic"
+        android:id="@+id/menu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/menu5" />
+    
+    <Button style="@style/btnStyleArsenic"
+        android:id="@+id/menu6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/menu6" />
+    
+    </LinearLayout>
